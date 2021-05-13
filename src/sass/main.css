@@ -73,12 +73,53 @@ img {
   height: auto;
 }
 
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.logo {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 96px;
+  height: 43px;
+}
+
+@media screen and (min-width: 1280px) {
+  .logo {
+    width: 158px;
+    height: 71px;
+  }
+}
+
+.secondary-logo {
+  width: 190px;
+  height: 85px;
+}
+
 .container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 @media screen and (min-width: 320px) {
@@ -99,9 +140,28 @@ img {
   }
 }
 
+.logo {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 96px;
+  height: 43px;
+}
+
+@media screen and (min-width: 1280px) {
+  .logo {
+    width: 158px;
+    height: 71px;
+  }
+}
+
+.secondary-logo {
+  width: 190px;
+  height: 85px;
+}
+
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -111,17 +171,6 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
   }
-}
-
-.list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.link {
-  text-decoration: none;
-  color: inherit;
 }
 
 .about-us__title {
@@ -135,6 +184,39 @@ img {
   color: #2e2520;
 }
 
+@media screen and (min-width: 320px) {
+  .about-us__title {
+    width: 320px;
+    font-family: Caveat Brush;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 65px;
+    /* identical to box height, or 271% */
+    text-align: center;
+    color: #2e2520;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__title {
+    width: 768px;
+    font-family: Caveat Brush;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 65px;
+    /* identical to box height, or 271% */
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us__title {
+    width: 1280px;
+  }
+}
+
 .about-us__text {
   font-family: Montserrat;
   font-style: normal;
@@ -142,5 +224,35 @@ img {
   font-size: 18px;
   line-height: 1.22;
   color: #2e2520;
+}
+
+@media screen and (min-width: 320px) {
+  .about-us__text {
+    width: 320px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2e2520;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__text {
+    width: 768px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2e2520;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us__text {
+    width: 1280px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
