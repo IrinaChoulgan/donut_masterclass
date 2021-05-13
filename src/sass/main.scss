@@ -5,3 +5,26 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
+
+@import './vendors/modern-normalize';
+@import './utils/variables';
+
+@import './base/common';
+@import './base/container';
+
+@import './components/button';
+@import './components/menu';
+@import './components/mobile-menu';
+@import './components/logo';
+@import './components/social-icons';
+
+@import './layouts/navigation';
+@import './layouts/header';
+@import './layouts/section';
+@import './layouts/hero';
+@import './layouts/about';
+@import './layouts/program';
+@import './layouts/reviews';
+@import './layouts/registration';
+@import './layouts/contact';
+@import './layouts/footer';
