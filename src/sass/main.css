@@ -123,4 +123,24 @@ img {
   text-decoration: none;
   color: inherit;
 }
+
+.about-us__title {
+  font-family: Caveat Brush;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 1.81;
+  /* identical to box height, or 181% */
+  text-align: center;
+  color: #2e2520;
+}
+
+.about-us__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #2e2520;
+}
 /*# sourceMappingURL=main.css.map */
