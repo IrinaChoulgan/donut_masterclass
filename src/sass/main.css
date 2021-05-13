@@ -95,6 +95,7 @@ img {
   overflow: hidden;
 }
 
+<<<<<<< Updated upstream
 .logo {
   text-decoration: none;
   display: -webkit-box;
@@ -116,6 +117,8 @@ img {
   height: 85px;
 }
 
+=======
+>>>>>>> Stashed changes
 .container {
   width: 100%;
   margin-left: auto;
@@ -140,6 +143,7 @@ img {
   }
 }
 
+<<<<<<< Updated upstream
 .logo {
   text-decoration: none;
   display: -webkit-box;
@@ -161,6 +165,8 @@ img {
   height: 85px;
 }
 
+=======
+>>>>>>> Stashed changes
 .section {
   margin-left: auto;
   margin-right: auto;
