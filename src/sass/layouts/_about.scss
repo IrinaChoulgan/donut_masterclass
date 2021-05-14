@@ -74,27 +74,25 @@
   }
 }
 
-.wrapper {
+.about-us__sections {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.xpandable-block {
-  height: 141px;
-  overflow: hidden;
-  order: 0;
-}
-.xpand-button {
-  order: 1;
-}
-input[type='checkbox'] {
-  display: none;
-}
-input[type='checkbox']:checked + .xpandable-block {
-  height: auto;
+
+.left-block {
+  width: 329.65px;
+  height: 352px;
 }
 .right-block {
   width: 336px;
   height: 242px;
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 690px;
+    height: 358px;
+  }
 }
