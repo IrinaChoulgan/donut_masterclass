@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 145px;
+  height: 40px;
+  background: #ab816c;
+  border-radius: 25px;
+
+  font-family: Caveat Brush;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 3.6;
+  // text-align: center;
+  color: #ffffff;
+
+  border: none;
+  cursor: pointer;
+
+  @media screen and (min-width: 1280px) {
+    width: 158px;
+    font-size: 24px;
+    line-height: 2.7;
+  }
+}
