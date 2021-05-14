@@ -1,4 +1,6 @@
 .about-us__title {
+  width: 113px;
+  height: 65px;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -8,10 +10,11 @@
   text-align: center;
 
   color: #2e2520;
-
+  margin-left: 60px;
+  margin: 0;
   @media screen and (min-width: 320px) {
     width: 320px;
-
+    margin-left: 60px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -25,7 +28,7 @@
 
   @media screen and (min-width: 768px) {
     width: 768px;
-
+    margin-left: 60px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -34,18 +37,22 @@
 
     text-align: center;
   }
-
-  @media screen and (min-width: 1280px) {
-    width: 1280px;
+  @media screen and (max-width: 1280px) {
+    width: 113px;
+    height: 65px;
   }
 }
 .about-us__text {
+  width: 392px;
+  height: 374px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
 
   color: #2e2520;
+  margin-left: 76px;
+  margin-right: 0;
 
   @media screen and (min-width: 320px) {
     width: 320px;
@@ -68,31 +75,27 @@
 
     color: #2e2520;
   }
-
-  @media screen and (min-width: 1280px) {
-    width: 1280px;
+  @media screen and (max-width: 1280px) {
+    width: 392px;
   }
 }
-
-.about-us__sections {
-  position: relative;
+.about-us {
+  width: 980px;
+  height: 546.71px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 71px;
+  top: 548px;
 }
-
 .left-block {
-  width: 329.65px;
-  height: 352px;
+  width: 512px;
+  height: 546.71px;
 }
 .right-block {
-  width: 336px;
-  height: 242px;
-}
-@media screen and (min-width: 1280px) {
-  .container {
-    width: 690px;
-    height: 358px;
-  }
+  width: 392px;
+  height: 374px;
 }
