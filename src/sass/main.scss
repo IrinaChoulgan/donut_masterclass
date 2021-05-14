@@ -6,9 +6,13 @@
 // Стили для файла с примером HTML-фрагмента
 @import './example';
 
+@import './base/defaults';
+
+@import './components/logo';
+
 @import './vendors/modern-normalize';
 @import './utils/variables';
-
+@import './base/defaults';
 @import './base/common';
 @import './base/container';
 
