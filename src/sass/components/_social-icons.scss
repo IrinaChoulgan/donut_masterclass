@@ -12,10 +12,22 @@
   align-items: center;
   width: 19px;
   height: 15px;
+  cursor: pointer;
 }
 
 .social-icons__icon {
   // width: 19px;
   // height: 15px;
-  fill: #2e2520;
+  fill: var(--primary-text-color);
+  transition: fill var(--cubic);
+}
+.social-icons__link:hover .social-icons__icon {
+  fill: var(--accent-color);
+}
+.footer-contacts__tel:hover,
+.footer-contacts__tel:focus,
+.footer-contacts__address:hover,
+.footer-contacts__address:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
 }
