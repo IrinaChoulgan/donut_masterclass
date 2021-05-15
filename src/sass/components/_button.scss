@@ -5,23 +5,27 @@
   align-items: center;
   width: 145px;
   height: 40px;
-  background: #ab816c;
+  background: var(--marker-color);
   border-radius: 25px;
 
-  font-family: Caveat Brush;
-  font-style: normal;
-  font-weight: normal;
+  font-family: var(--title-font);
   font-size: 18px;
   line-height: 3.6;
   // text-align: center;
-  color: #ffffff;
+  color: var(--object-color);
 
   border: none;
   cursor: pointer;
+  transition: background var(--cubic);
 
   @media screen and (min-width: 1280px) {
     width: 158px;
     font-size: 24px;
     line-height: 2.7;
   }
+}
+
+.button:hover,
+.button:focus {
+  background: var(--accent-color);
 }
