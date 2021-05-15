@@ -9,9 +9,11 @@
   align-items: center;
   justify-content: center;
 }
+
 .footer {
   position: relative;
 }
+
 .contact__form {
   display: flex;
   flex-direction: column;
@@ -26,9 +28,11 @@
 .contact__text {
   margin-bottom: 27px;
 }
+
 .contact__mail {
   margin-bottom: 27px;
 }
+
 .contact__question,
 .contact__mail {
   border-top: none;
@@ -45,6 +49,7 @@
   @media screen and (min-width: 768px) {
     width: 410px;
   }
+
   @media screen and (min-width: 1280px) {
     width: 430px;
   }
@@ -57,26 +62,33 @@ input:invalid {
 ::-webkit-input-placeholder {
   color: rgba(171, 129, 108, 0.5);
 }
+
 :-moz-placeholder {
   color: rgba(171, 129, 108, 0.5);
 }
+
 ::-moz-placeholder {
   color: rgba(171, 129, 108, 0.5);
 }
+
 :-ms-input-placeholder {
   color: rgba(171, 129, 108, 0.5);
 }
+
 .contact__question {
   margin-bottom: 36px;
 }
+
 .contact__btn {
   margin-bottom: 50px;
 }
+
 .footer-contacts {
   margin-top: 34px;
   margin-bottom: 19px;
   position: relative;
 }
+
 .contact {
   display: flex;
   flex-direction: column;

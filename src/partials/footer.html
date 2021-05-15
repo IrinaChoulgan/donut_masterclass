@@ -1,5 +1,34 @@
 <footer class="footer">
   <div class="container footer__container">
+    <div class="background__footer">
+      <picture>
+        <source
+          srcset="
+            .//images/desktop/bg_footer-desktop.png    1x,
+            .//images/desktop/bg_footer-desktop@2x.png 2x
+          "
+          media="(min-width: 1280px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            .//images/tablet/bg_footer-tablet.png    1x,
+            .//images/tablet/bg_footer-tablet@2x.png 2x
+          "
+          media="(min-width: 768px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            .//images/mobile/bg_footer-mobile.png    1x,
+            .//images/mobile/bg_footer-mobile@2x.png 2x
+          "
+          media="(max-width: 767px)"
+          type="image/png"
+        />
+        <img src=".//images/desktop/bg_footer-desktop.png" alt="background" />
+      </picture>
+    </div>
     <div class="contact">
       <h2 class="contact__title">Contact</h2>
       <p class="contact__text">We will answer any question!</p>
