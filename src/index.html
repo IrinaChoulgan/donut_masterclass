@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Заголовок страницы</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:wght@400;500&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./sass/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -17,9 +18,12 @@
 
 <body>
   <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-
+  <include src="./partials/logo.html"></include>
   <include src="./partials/hero.html"></include>
   <include src="./partials/about.html"></include>
+
+ 
+ <!--   <include src="./partials/program.html"></include> -->
   <include src="./partials/registration.html"></include>
   <include src="./partials/footer.html"></include>
   <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
