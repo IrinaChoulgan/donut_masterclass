@@ -573,6 +573,20 @@ label {
   content: url(../images/icons/star.svg);
 }
 
+.reviews__item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reviews__item-name {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
 .reviews {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -630,6 +644,10 @@ label {
 .reviews__list {
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
+}
+
+.reviews_text {
   text-align: center;
 }
 
