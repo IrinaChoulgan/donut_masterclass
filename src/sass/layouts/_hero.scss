@@ -88,3 +88,11 @@
     margin-bottom: 65px;
   }
 }
+
+.hero__social-icons {
+  justify-content: center;
+
+  @media screen and (min-width: 768px) {
+    justify-content: start;
+  }
+}
