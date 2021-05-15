@@ -1,11 +1,11 @@
 .rating-mini {
 	display: inline-block;
 	font-size: 0;
+  
 }
 .rating-mini span {
 	padding: 0;
 	content: url( ../images/icons/unstar.svg ) ;
-	
   
 }
 .rating-mini > span:before {
@@ -15,6 +15,16 @@
 .rating-mini > span.active {
   content: url( ../images/icons/star.svg ) ;
 
+}
+.reviews__item{ 
+  justify-content: center
+}
+.reviews__item-name{
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
 }
 .reviews{
     padding-top: 60px;
@@ -42,9 +52,9 @@
     margin-top: -30px;
   }
 .grid__item {
-flex-basis: calc((100% - 30px * var(--grid__item)) / var(--grid__item));
-margin-left: 30px;
-margin-top: 30px;
+   flex-basis: calc((100% - 30px * var(--grid__item)) / var(--grid__item));
+   margin-left: 30px;
+   margin-top: 30px;
 }
 .reviews__item{
     --grid__item: 1;
@@ -62,3 +72,7 @@ margin-top: 30px;
     line-height: 1.19;
     text-align: center; 
     }
+  .reviews_text{
+    text-align: center; 
+
+  }
