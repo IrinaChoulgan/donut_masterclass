@@ -1,5 +1,7 @@
 
-
+.primary{
+    display: inline-flex;
+}
 
 label {
     display: flex;
@@ -161,6 +163,12 @@ label {
 }
 }
 
+.checkin-form__field{
+    @media screen and (min-width: 768px) and (max-width: 1279px){
+        width: 234px;
+}
+}
+
 .checkin-form__field:first-child .checkin-form__input{
     @media screen and (min-width: 1280px){
     padding-top: 14px;
@@ -189,6 +197,7 @@ label {
     border: none;
     border-bottom: 1px solid var(--marker-color);
     padding-top: 16px;
+    background-color: #FFFFF9;
 
     &::placeholder{
         font-size: 16px;
@@ -324,6 +333,9 @@ label {
 
 .info-form__input{
     border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .info{
