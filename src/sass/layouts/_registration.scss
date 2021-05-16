@@ -32,20 +32,36 @@ label {
  }
 
  .form-part__image{
-    @media screen and (min-width: 1279px) {
-    left: 69px;
+
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+        left: 0px;
+        top:24px;
+        transform: rotate(69.49deg);
+        }
+
+    @media screen and (min-width: 1280px) {
+    left: 69;
     top:24px;
     transform: rotate(69.49deg);
     }
 }
- .donut{
+
+.donut{
     transform: rotate(-69.49deg);
  }
 
  .form-part__image--confetti{
-   top:0;
+    @media screen and (min-width: 1280px) {
+   top:50px;
+   left: 600px;
+    }
+
+   @media screen and (min-width: 768px) and (max-width: 1279px) {
+
+   bottom:0px;
    left: 600px;
  }
+}
 
 
 .form-part__bg{
