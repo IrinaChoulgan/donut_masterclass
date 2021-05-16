@@ -2,6 +2,28 @@
 <section class="registration" id="registration"> 
     <div class="container form-part">
        <h2 class="form-part__title">Registration</h2>
+       <div class="form-part__image">
+       <picture">
+        <source
+          srcset="
+            ./images/desktop/donut5-desktop.png 1x,
+            ./images/desktop/donut5-desktop@2x.png 2x
+          "
+          media="(min-width: 1280px)"
+        />
+    
+        <source
+          srcset="
+          ./images/tablet/donut5-tablet.png 1x,
+          ./images/tablet/donut5-tablet@2x.png 2x
+          "
+          media="(min-width: 768px)"
+          class="tablet"
+        />
+        <img class="donut" src="./images/desktop/donut5-desktop.png " alt="donut">
+    </picture>
+</div>
+
          <div class="form-part__bg ">
             <div class="form-part__wrapper">
                 <form role="group" class="info-form">
@@ -38,3 +60,5 @@
        </div>
    </div>
   </section>
+
+ 

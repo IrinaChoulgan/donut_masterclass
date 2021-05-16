@@ -13,6 +13,7 @@ label {
 }
 
 .form-part {
+    position: relative;
     @media screen and (max-width: 767px){
     text-align: center;
     max-width: 290px;
@@ -23,6 +24,14 @@ label {
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     }
 }
+
+ .form-part__image{
+    position: absolute;
+    transform: rotate(69.49deg);
+}
+ .donut{
+    transform: rotate(-69.49deg);
+ }
 
 .form-part__bg{
     margin-right: auto;
@@ -409,6 +418,7 @@ label {
         color: rgba(171, 129, 108, 0.5);
         }
 }
+
 
 
 
