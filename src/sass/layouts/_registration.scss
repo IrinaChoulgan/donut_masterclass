@@ -22,7 +22,10 @@ label {
     }
 }
 
-.form-part__container {
+.form-part__bg{
+    margin-right: auto;
+    margin-left: auto;
+
     @media screen and (min-width: 768px) {
     justify-content: space-between;
     display: flex;
@@ -35,14 +38,14 @@ label {
 
 
 @media screen and (min-width: 768px) and (max-width: 1279px){
-    .form-part__container {
+    .form-part__bg{
     max-width: 634px;
     border-radius: 150px;
     }
 }
 
 @media screen and (min-width: 1280px){
-    .form-part__container {
+    .form-part__bg{
     max-width: 822px;
     height: 260px;
     border-radius: 150px;
@@ -163,12 +166,6 @@ label {
 }
 }
 
-.checkin-form__field{
-    @media screen and (min-width: 768px) and (max-width: 1279px){
-        width: 234px;
-}
-}
-
 .checkin-form__field:first-child .checkin-form__input{
     @media screen and (min-width: 1280px){
     padding-top: 14px;
@@ -176,6 +173,24 @@ label {
     @media screen and (min-width: 768px) and (max-width: 1279px){
     padding-top: 18px;
     }
+}
+
+.checkin-form__input{
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid var(--marker-color);
+    padding-top: 16px;
+    background-color: #FFFFF9;
+
+    @media screen and (min-width: 768px) and (max-width: 1279px){
+        width: 234px;
+    }
+
+    &::placeholder{
+        font-size: 16px;
+        line-height: 1.22;
+        color: rgba(171, 129, 108, 0.5);
+        }
 }
 
 
@@ -191,21 +206,6 @@ label {
     padding-top: 19px;
     }
 }
-
-.checkin-form__input{
-    margin: 0;
-    border: none;
-    border-bottom: 1px solid var(--marker-color);
-    padding-top: 16px;
-    background-color: #FFFFF9;
-
-    &::placeholder{
-        font-size: 16px;
-        line-height: 1.22;
-        color: rgba(171, 129, 108, 0.5);
-        }
-}
-
 
 
 label {
