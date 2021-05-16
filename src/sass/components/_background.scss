@@ -52,14 +52,23 @@
   width: 100%;
 
   @media screen and (max-width: 767.98px) {
-    bottom: -102.75px;
+    width: 324px;
+    height: auto;
+    left: -3px;
+    bottom: 216.4px;
   }
 
   @media screen and (min-width: 768px) {
+    width: 773px;
+    height: auto;
+    left: -5px;
     bottom: 63.01px;
   }
 
   @media screen and (min-width: 1280px) {
-    bottom: -102.75px;
+    width: 1285.78px;
+    height: auto;
+    left: -5.78px;
+    bottom: 0;
   }
 }
