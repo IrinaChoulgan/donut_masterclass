@@ -41,7 +41,7 @@
 }
 .about-us__text {
   width: 392px;
-  height: 374px;
+
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -51,6 +51,7 @@
   margin: 0;
 
   @media screen and (min-width: 320px) {
+    width: 290px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -61,7 +62,7 @@
 
   @media screen and (min-width: 768px) {
     width: 336px;
-    height: 242px;
+
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -74,44 +75,37 @@
 }
 .about-us {
   width: 980px;
-  height: 546.71px;
+
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  position: absolute;
-  left: 71px;
-  top: 548px;
-}
-.left-block {
-  width: 512px;
-  height: 546.71px;
-  margin: 0;
-}
-.right-block {
-  width: 392px;
-  height: 374px;
-  margin-right: 0;
-  margin-left: 76px;
-}
-.box-desktop {
-  margin-right: 0;
+
   @media screen and (min-width: 320px) {
-    width: 290px;
-    height: 309.66px;
-    margin-right: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
   }
 
   @media screen and (min-width: 768px) {
-    width: 329.65px;
-    height: 352px;
-    margin-right: 0;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
   }
   @media screen and (min-width: 1280px) {
-    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
-.tablet {
+
+.right-block {
+  width: 392px;
+
   margin-right: 0;
+  margin-left: 76px;
 }
