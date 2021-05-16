@@ -22,6 +22,7 @@
   margin-bottom: 10px;
 }
 
+<<<<<<< Updated upstream
 .read-more {
   display: flex;
   margin: 0;
@@ -29,6 +30,13 @@
 }
 
 // 33px ниже
+=======
+// .read-more {
+//   display: flex;
+//   margin: 0;
+//   padding: 0;
+// }
+>>>>>>> Stashed changes
 
 .program-right-block {
   position: relative;
@@ -60,9 +68,26 @@
   }
 }
 
-.program-right-block__title,
+.program-right-block__title {
+  margin-bottom: 13px;
+
+  font-family: Caveat Brush;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+
 .program-right-block__text {
   margin-bottom: 13px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
 }
 
 .program-donuts {
@@ -98,8 +123,8 @@
 .program-time {
   &::after {
     content: '';
-    width: 27px;
-    height: 27px;
+    width: 29px;
+    height: 29px;
     background-repeat: no-repeat;
     background-image: url(../../src/images/icons/clock.svg);
   }
