@@ -4,7 +4,7 @@
        <h2 class="form-part__title">Registration</h2>
          <div class="container form-part__container ">
             <div class="form-part__wrapper">
-                <form class="info-form">
+                <form role="group" class="info-form">
                     <label class="info-form__field">
                         <input class="info-form__input" type="datetime-local" name="date-time" min="2021-05-23T11:00" max="2021-05-23T11:00"> 
                     </label>
@@ -18,22 +18,22 @@
                     </ul>
                </form> 
            </div>
-           <div class="form-part__wrapper">
+           <div role="group" class="form-part__wrapper">
                 <p class="checkin-form__text">Apply your personal info for registration </p>
                 <form class="chekin-form">
                    <label class="checkin-form__field"> 
-                       <input class="checkin-form__input" type="text" name="user-name" placeholder="Your name" >
+                       <input class="checkin-form__input" type="text" name="user-name" placeholder="Your name" pattern="^[a-zA-Z]+">
                    </label>
                    <label class="checkin-form__field">
-                       <input class="checkin-form__input" type="tel" name="tel" placeholder="Phone number">
+                       <input class="checkin-form__input" type="tel" name="tel" placeholder="Phone number" pattern="[0-9]{5,10}">
                    </label>
                    <label class="checkin-form__field">
-                       <input class="checkin-form__input" type="email" name="email" placeholder="Email">
+                       <input class="checkin-form__input" type="email" name="mail" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                    </label>
                </form>  
            </div>
-           <div class="form-part__wrapper">
-               <button class="button" type="submit">Register</button>
+           <div role="group" class="form-part__wrapper">
+               <button class="button primary" type="submit">Register</button>
            </div>
        </div>
    </div>
