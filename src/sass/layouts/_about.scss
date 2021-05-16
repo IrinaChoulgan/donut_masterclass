@@ -1,9 +1,4 @@
-.about-us__content {
-  margin-top: 75px;
-}
 .about-us__title {
-  width: 113px;
-  height: 65px;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -28,9 +23,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 76px;
-    height: 65px;
-
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -38,13 +30,9 @@
     /* identical to box height, or 271% */
   }
   @media screen and (min-width: 1280px) {
-    width: 113px;
-    height: 65px;
   }
 }
 .about-us__text {
-  width: 392px;
-
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -53,7 +41,6 @@
   color: #2e2520;
 
   @media screen and (min-width: 320px) {
-    width: 290px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -63,8 +50,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 336px;
-
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -76,8 +61,6 @@
   }
 }
 .about-us {
-  width: 980px;
-
   padding: 0;
   margin: 0;
   list-style: none;
@@ -90,7 +73,6 @@
     flex-direction: column;
     align-content: center;
     align-items: stretch;
-    justify-content: center;
   }
 
   @media screen and (min-width: 768px) {
@@ -107,8 +89,6 @@
 }
 
 .right-block__about-us {
-  width: 392px;
-
   margin-right: 0;
 
   @media screen and (min-width: 320px) {
@@ -118,7 +98,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 336px;
     margin-left: 25px;
     margin-right: 0;
   }
