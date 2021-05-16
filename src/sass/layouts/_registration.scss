@@ -25,13 +25,28 @@ label {
     }
 }
 
- .form-part__image{
+ .form-part__image,
+ .form-part__image--confetti{
     position: absolute;
+    z-index: -1;
+ }
+
+ .form-part__image{
+    @media screen and (min-width: 1279px) {
+    left: 69px;
+    top:24px;
     transform: rotate(69.49deg);
+    }
 }
  .donut{
     transform: rotate(-69.49deg);
  }
+
+ .form-part__image--confetti{
+   top:0;
+   left: 600px;
+ }
+
 
 .form-part__bg{
     margin-right: auto;
