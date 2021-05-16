@@ -1,12 +1,22 @@
-body {
-  margin: 0;
-  font-family: 'Caveat Brush', cursive;
-  font-family: 'Montserrat', sans-serif;
+html {
+  box-sizing: border-box;
 }
+
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  box-sizing: inherit;
+  /*  outline: solid red; */
+}
+
+body {
+  margin: 0;
+  font-family: var(--text-font), cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--primary-text-color);
 }
 
 h1,
@@ -15,17 +25,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Caveat Brush;
+  font-family: var(--title-font);
   margin: 0px;
 }
 
 p {
-  font-family: Montserrat;
   margin: 0;
 }
+
 .visually {
   display: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -36,6 +47,7 @@ ul {
   text-decoration: none;
   list-style: none;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -47,10 +59,12 @@ img {
   padding-left: 0;
   margin: 0;
 }
+
 .link {
   text-decoration: none;
   color: inherit;
 }
+
 label {
   order: 1;
 
@@ -58,6 +72,7 @@ label {
 
   cursor: pointer;
 }
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -68,15 +83,11 @@ label {
   width: 1px !important;
   overflow: hidden;
 }
+
 .read-more {
-  font-family: Caveat Brush;
-  font-style: normal;
-  font-weight: normal;
+  font-family: var(--title-font);
   font-size: 18px;
-  line-height: 65px;
-  /* identical to box height, or 361% */
-
+  line-height: 3.61px;
   text-align: center;
-
-  color: #674d40;
+  color: var(--details-color);
 }

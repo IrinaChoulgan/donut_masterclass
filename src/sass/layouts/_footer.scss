@@ -4,14 +4,16 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
+  // display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .footer {
   position: relative;
 }
+
 .contact__form {
   display: flex;
   flex-direction: column;
@@ -26,9 +28,11 @@
 .contact__text {
   margin-bottom: 27px;
 }
+
 .contact__mail {
   margin-bottom: 27px;
 }
+
 .contact__question,
 .contact__mail {
   border-top: none;
@@ -45,6 +49,7 @@
   @media screen and (min-width: 768px) {
     width: 410px;
   }
+
   @media screen and (min-width: 1280px) {
     width: 430px;
   }
@@ -57,25 +62,33 @@ input:invalid {
 ::-webkit-input-placeholder {
   color: rgba(171, 129, 108, 0.5);
 }
+
 :-moz-placeholder {
   color: rgba(171, 129, 108, 0.5);
 }
+
 ::-moz-placeholder {
   color: rgba(171, 129, 108, 0.5);
 }
+
 :-ms-input-placeholder {
   color: rgba(171, 129, 108, 0.5);
 }
+
 .contact__question {
   margin-bottom: 36px;
 }
+
 .contact__btn {
   margin-bottom: 50px;
 }
+
 .footer-contacts {
   margin-top: 34px;
-  z-index: 50;
+  margin-bottom: 19px;
+  position: relative;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -88,16 +101,18 @@ input:invalid {
 .footer-contacts__list {
   display: flex;
   justify-content: space-between;
-  z-index: 25;
   margin-bottom: 19px;
-}
-.footer-contacts__tel {
-  display: flex;
-  align-items: center;
 }
 
 .footer-picture {
+  z-index: -1;
   position: absolute;
   right: 0px;
-  bottom: 0;
+  bottom: -19px;
+}
+
+.social-icons__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
