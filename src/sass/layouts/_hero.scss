@@ -1,23 +1,14 @@
 .hero__container {
   display: block;
-  width: 100%;
   padding-top: 33px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
 
   @media screen and (min-width: 768px) {
-    padding-left: 68px;
-    padding-right: 68px;
     padding-top: 10px;
     text-align: start;
   }
 
   @media screen and (min-width: 1280px) {
-    padding-left: 229px;
-    padding-right: 229px;
     padding-top: 57px;
   }
 }
