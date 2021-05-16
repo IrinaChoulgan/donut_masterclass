@@ -81,7 +81,23 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+<<<<<<< Updated upstream
 
+=======
+  position: absolute;
+  left: 71px;
+  top: 548px;
+}
+
+.right-block {
+  width: 392px;
+  height: 374px;
+  margin-right: 0;
+  margin-left: 76px;
+}
+.box-desktop {
+  margin-right: 0;
+>>>>>>> Stashed changes
   @media screen and (min-width: 320px) {
     display: flex;
     flex-wrap: nowrap;
