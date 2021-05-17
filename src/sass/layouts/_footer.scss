@@ -85,7 +85,8 @@ input:invalid {
 
 .footer-contacts {
   margin-top: 34px;
-  margin-bottom: 19px;
+  margin-bottom: 0px;
+  padding-bottom: 19px;
   position: relative;
 }
 
@@ -101,7 +102,7 @@ input:invalid {
 .footer-contacts__list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 19px;
+  margin-bottom: 0px;
 }
 
 .footer-picture {
