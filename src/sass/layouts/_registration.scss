@@ -32,22 +32,19 @@ label {
  }
 
  .form-part__image{
-
     @media screen and (min-width: 768px) and (max-width: 1279px) {
-        left: 0px;
-        top:24px;
-        transform: rotate(69.49deg);
+       left: 0px;
+       top:24px;
         }
 
-    @media screen and (min-width: 1280px) {
-    left: 69;
-    top:24px;
-    transform: rotate(69.49deg);
-    }
+   @media screen and (min-width: 1280px) {
+    left: 149px;
+   top:24px;
+   }
 }
 
-.donut{
-    transform: rotate(-69.49deg);
+ .donut{
+     transform: rotate(9.49deg);
  }
 
  .form-part__image--confetti{
@@ -342,6 +339,7 @@ label {
     font-family: 'Caveat Brush', cursive; 
     font-size: 36px;
     line-height: 1.81;
+    margin-bottom: 10px;
     }
 }
 
