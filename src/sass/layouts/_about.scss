@@ -1,9 +1,4 @@
-.about-us__content {
-  margin-top: 75px;
-}
 .about-us__title {
-  width: 113px;
-  height: 65px;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -13,7 +8,7 @@
   text-align: center;
 
   color: #2e2520;
-
+  display: contents;
   margin: 0;
   @media screen and (min-width: 320px) {
     font-style: normal;
@@ -28,9 +23,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 76px;
-    height: 65px;
-
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -38,46 +30,43 @@
     /* identical to box height, or 271% */
   }
   @media screen and (min-width: 1280px) {
-    width: 113px;
-    height: 65px;
   }
 }
 .about-us__text {
-  width: 392px;
-
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
 
-  color: #2e2520;
+  color: var(--primary-text-color);
 
   @media screen and (min-width: 320px) {
-    width: 290px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
 
-    color: #2e2520;
+    color: var(--primary-text-color);
+
+    padding-right: 115px;
   }
 
   @media screen and (min-width: 768px) {
-    width: 336px;
-
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-
-    color: #2e2520;
+    padding-right: 0;
+    color: var(--primary-text-color);
   }
   @media screen and (min-width: 1280px) {
+    margin-top: 0.5em;
+    padding-right: 0;
+    margin-bottom: 0.5em;
   }
 }
-.about-us {
-  width: 980px;
 
+.about-us {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -85,32 +74,29 @@
   flex-wrap: wrap;
 
   @media screen and (min-width: 320px) {
+    width: 290px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    align-content: center;
-    align-items: stretch;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   @media screen and (min-width: 768px) {
+    width: 690px;
     flex-direction: row;
-    margin-top: 100px;
-    margin-left: 17px;
+    margin-top: 15px;
+
     display: -webkit-inline-box;
   }
   @media screen and (min-width: 1280px) {
+    width: 980px;
     flex-wrap: wrap;
     margin-left: 71px;
-    margin-top: 115px;
+    margin-top: 30px;
   }
 }
 
 .right-block__about-us {
-  width: 392px;
-
-  margin-right: 0;
-
   @media screen and (min-width: 320px) {
     flex-direction: column;
     margin-right: 15px;
@@ -118,20 +104,19 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 336px;
     margin-left: 25px;
     margin-right: 0;
   }
   @media screen and (min-width: 1280px) {
+    margin-top: 45px;
     margin-left: 76px;
   }
 }
-.left-block__about-us {
+/*.left-block__about-us {
   @media screen and (min-width: 320px) {
   }
-
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1280px) {
   }
-}
+}*/
