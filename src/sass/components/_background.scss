@@ -2,8 +2,9 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 
-  @media screen and (min-width: 320px) {
+  /* @media screen and (min-width: 320px) {
     width: 320px;
   }
 
@@ -13,7 +14,7 @@
 
   @media screen and (min-width: 1280px) {
     min-width: 1280px;
-  }
+  } */
 }
 
 .background__image {
@@ -22,6 +23,7 @@
 
 .background__donuts {
   position: absolute;
+  z-index: -1;
 
   @media screen and (max-width: 767.98px) {
     width: 120px;
@@ -47,8 +49,9 @@
   z-index: -10;
   left: 0;
   top: 0;
+  width: 100%;
 
-  @media screen and (max-width: 767.98px) {
+  /* @media screen and (max-width: 767.98px) {
     width: 320px;
     left: 0px;
     top: 0px;
@@ -64,7 +67,7 @@
     width: 1280px;
     left: 0px;
     top: 0px;
-  }
+  } */
 }
 
 .background__footer {
@@ -73,23 +76,23 @@
   width: 100%;
 
   @media screen and (max-width: 767.98px) {
-    width: 324px;
-    height: auto;
-    left: -3px;
+    /* width: 324px;
+    height: auto; */
+    left: 0px;
     bottom: 216.4px;
   }
 
   @media screen and (min-width: 768px) {
-    width: 773px;
-    height: auto;
-    left: -5px;
+    /* width: 773px;
+    height: auto; */
+    left: 0px;
     bottom: 63.01px;
   }
 
   @media screen and (min-width: 1280px) {
-    width: 1285.78px;
-    height: auto;
-    left: -5.78px;
+    /* width: 1285.78px;
+    height: auto; */
+    left: 0px;
     bottom: 0;
   }
 }
