@@ -1,10 +1,26 @@
 .program__container {
   display: flex;
   flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 
 .program-left-block {
   margin-bottom: 15px;
+
+  @media screen and (min-width: 768px) {
+    width: 290px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 392px;
+  }
 }
 
 .program-left-block__title {
@@ -20,6 +36,18 @@
 
 .program-left-block__item {
   margin-bottom: 10px;
+
+  // list-style-type: '\003E'+ ' ';
+
+  &::before {
+    content: '\1F369'+ ' ';
+  }
+}
+
+.read-more {
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .program-right-block {
@@ -27,17 +55,34 @@
 
   margin-top: 34px;
   padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 38px;
+    width: 290px;
+
+    margin-right: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 38px;
+    width: 382px;
+
+    margin-right: 0;
+  }
 }
+
 .program-right-block__list {
   display: flex;
   flex-wrap: wrap;
+
+  margin: 0;
 }
 
 .program-right-block__item {
   position: relative;
 
-  height: 140px;
-  width: 140px;
+  height: 142px;
+  width: 142px;
   background-color: #fef3e4;
   border-radius: 50%;
   margin-top: 0;
@@ -50,6 +95,11 @@
     margin-top: 60px;
     margin-right: 0;
   }
+
+  @media screen and (min-width: 1200px) {
+    height: 180px;
+    width: 180px;
+  }
 }
 
 .program-right-block__title {
@@ -61,6 +111,12 @@
   font-size: 18px;
   line-height: 1.28;
   text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 17px;
+    font-size: 24px;
+    line-height: 1.25;
+  }
 }
 
 .program-right-block__text {
@@ -72,17 +128,27 @@
   font-size: 14px;
   line-height: 1.21;
   text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 17px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .program-donuts {
   position: absolute;
   top: -40px;
-  right: 9px;
+  right: 15px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (min-width: 1200px) {
+    right: 17px;
+  }
 }
 
 .program-cooking {
