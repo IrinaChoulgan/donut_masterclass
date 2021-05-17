@@ -17,24 +17,26 @@
         </picture>
     </div>
     <div class="form-part__bg ">
-        <div class="form-part__wrapper">
+        <div class="info-wrapper">
             <form role="group" class="info-form">
                 <label class="info-form__field">
                     <input class="info-form__input" type="datetime-local" name="date-time" min="2021-05-23T11:00" max="2021-05-23T11:00"> 
                 </label>
             </form> 
-            <ul class="info list">
-                <li class="info__item">
-                    <span class="info__text">New York</span>
+            <ul class="info-list list">
+                <li class="info-list__item">
+                    <span class="info-list__text">New York</span>
                 </li>
-                <li class="info__item">
-                    <span class="info__text">$ 699</span>
+                <li class="info-list__item">
+                    <span class="info-list__text">$ 699</span>
                 </li>
             </ul>
-        </div>
-            <div role="group" class="form-part__wrapper">
-                <p class="checkin-form__text">Apply your personal info for registration </p>
-                <form class="chekin-form">
+       </div>
+          <div role="group" class="checkin-wrapper">
+             <form class="chekin-form">
+                <div role="group" class="chekin-form__thumb">
+                  <p class="checkin-form__text">Apply your personal info for registration </p>
+                
                     <label class="checkin-form__field"> 
                         <input class="checkin-form__input" type="text" name="user-name" placeholder="Your name" pattern="^[a-zA-Z]+">
                     </label>
@@ -44,12 +46,13 @@
                     <label class="checkin-form__field">
                         <input class="checkin-form__input" type="email" name="mail" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                     </label>
-                </form>  
-            </div>
-            <div role="group" class="form-part__wrapper">
-                <button class="button primary" type="submit">Register</button>
-            </div>
-        </div>
-    </div>
+                </div>
+                   
+                   <div role="group" class="chekin-form__thumb">
+                      <button class="button primary" type="submit">Register</button>
+                   </div>
+                </form> 
+             </div>
+       </div>
 </section>
 

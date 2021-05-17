@@ -27,11 +27,11 @@ label {
 
 
 .form-part__bg{
-    margin-right: auto;
-    margin-left: auto;
+margin-right: auto;
+margin-left: auto;
 
     @media screen and (min-width: 768px) {
-    justify-content: space-between;
+   
     display: flex;
     flex-wrap: nowrap;
     background-color: #FFFFF9;
@@ -55,7 +55,6 @@ label {
     border-radius: 150px;
 }
 }
-
 
 
 .form-part__image,
@@ -92,29 +91,27 @@ label {
 }
 
 
-@media screen and (max-width: 767px)  {
-    .form-part__wrapper:nth-child(2) {
-    margin-bottom: 25px;
+    .chekin-form__thumb:nth-child(2) {
+        @media screen and (max-width: 767px)  {
+            margin-bottom: 25px;
+        }
+        @media screen and (min-width: 1280px)  {
+            margin-left: 50px;
     }
 }
 
 
 @media screen and (min-width: 768px)  {
-    .form-part__wrapper {
-        padding-top: 35px;
-        padding-bottom: 35px;
-        display: flex;
+    .chekin-form__thumb {
+        max-width: 234px;
+        display: inline-flex;
         flex-direction: column;
-        flex-basis: calc((50% - 45px) / 2);
-    }
-}
-@media screen and (min-width: 768px) {
-    .form-part__wrapper:nth-child(3){
-        padding: 0;
         margin-top: auto;
         margin-bottom: auto;
-        }
+        
+    }
 }
+
 
 
 .form-part__title{
@@ -151,7 +148,7 @@ label {
     align-content: center;
     max-width: 265px;
     margin-bottom: 11px;
-    border-bottom: 1px solid var(--marker-color);
+    
     }
 
     @media screen and (min-width: 768px) and (max-width: 1279px){
@@ -159,16 +156,20 @@ label {
     padding-top: 19px;
     padding-right: 30px;
     padding-left: 10px;
-    border-right: 1px solid var(--marker-color);
-    height: 190px;
     }
     @media screen and (min-width: 1280px){
     padding-top: 19px;
     padding-left: 107px; 
     padding-right: 30px;
-    border-right: 1px solid var(--marker-color);
-    height: 190px;
     }
+}
+
+.info-wrapper{
+    @media screen and (min-width: 768px){
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-right: 1px solid rgba(171, 129, 108, 0.5);
+}
 }
 
 .info-form__input{
@@ -178,12 +179,12 @@ label {
     line-height: 22px;
 }
 
-
-.info{
+.info-list{
     flex-direction: column;
+    padding-right: 30px;
 }
 
-.info__item{
+.info-list__item{
     @media screen and (max-width: 767px) {
     padding-bottom: 25px;
 
@@ -202,7 +203,7 @@ label {
     }
 }
 
-.info__text{
+.info-list__text{
     font-weight: 500;  
     @media screen  and (max-width: 1279px){
     font-size: 18px;
@@ -214,6 +215,14 @@ label {
     }
 }
 
+.checkin-wrapper > form{
+    @media screen and (max-width: 767px){
+        display: block;
+    }
+    @media screen and (min-width: 768px){
+    display: flex;
+}
+}
 
 .checkin-form__field:first-child .checkin-form__input{
     @media screen and (min-width: 1280px){
@@ -224,6 +233,16 @@ label {
     }
 }
 
+
+.checkin-wrapper{
+    @media screen and (min-width: 768px){
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    display: flex;
+}
+}
 
 .checkin-form__input{
     margin: 0;
@@ -242,7 +261,6 @@ label {
         color: rgba(171, 129, 108, 0.5);
         }
 }
-
 
 .checkin-form__text{
     font-size: 16px;
