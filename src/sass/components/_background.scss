@@ -1,3 +1,25 @@
+.background__container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    min-width: 1280px;
+  }
+}
+
+.background__image {
+  width: 100vw;
+}
+
 .background__donuts {
   position: absolute;
 
@@ -23,11 +45,10 @@
 .background__header {
   position: absolute;
   z-index: -10;
-  max-width: 100%;
   left: 0;
   top: 0;
 
-  /* @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 767.98px) {
     width: 320px;
     left: 0px;
     top: 0px;
@@ -40,10 +61,10 @@
   }
 
   @media screen and (min-width: 1280px) {
-    width: 100%;
+    width: 1280px;
     left: 0px;
     top: 0px;
-  } */
+  }
 }
 
 .background__footer {
@@ -70,5 +91,16 @@
     height: auto;
     left: -5.78px;
     bottom: 0;
+  }
+}
+
+.background__spoon {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 170px;
+
+  @media screen and (max-width: 1279px) {
+    display: none;
   }
 }
