@@ -4,7 +4,6 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
 
 @import './base/defaults';
 
@@ -21,6 +20,7 @@
 @import './components/mobile-menu';
 @import './components/logo';
 @import './components/social-icons';
+@import './components/background';
 
 @import './layouts/navigation';
 @import './layouts/header';
@@ -31,4 +31,5 @@
 @import './layouts/reviews';
 @import './layouts/registration';
 @import './layouts/contact';
+@import './layouts/registration';
 @import './layouts/footer';

@@ -1,0 +1,84 @@
+
+<section class="registration" id="registration"> 
+    <div class="container form-part">
+       <h2 class="form-part__title">Registration</h2>
+       <div class="form-part__image">
+       <picture">
+        <source
+          srcset="
+            ./images/desktop/donut5-desktop.png 1x,
+            ./images/desktop/donut5-desktop@2x.png 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+          ./images/tablet/donut5-tablet.png 1x,
+          ./images/tablet/donut5-tablet@2x.png 2x
+          "
+          media="(min-width: 768px)"
+          class="tablet"
+        />
+        <img class="donut" src="./images/desktop/donut5-desktop.png " alt="donut">
+    </picture>
+</div>
+<div class="form-part__image--confetti">
+    <picture">
+     <source
+       srcset="
+         ./images/desktop/confetti-desktop.png 1x,
+         ./images/desktop/confetti-desktop@2x.png 2x
+       "
+       media="(min-width: 1280px)"
+     />
+     <source
+       srcset="
+       ./images/tablet/confetti-tablet.png 1x,
+       ./images/tablet/confetti-tablet@2x.png 2x
+       "
+       media="(min-width: 768px)"
+       class="tablet"
+     />
+     <img class="confetti" src="./images/desktop/confetti-desktop.png " alt="confetti">
+ </picture>
+</div>
+
+         <div class="form-part__bg ">
+            <div class="form-part__wrapper">
+                <form role="group" class="info-form">
+                    <label class="info-form__field">
+                        <input class="info-form__input" type="datetime-local" name="date-time" min="2021-05-23T11:00" max="2021-05-23T11:00"> 
+                    </label>
+                    <ul class="info list">
+                       <li class="info__item">
+                           <span class="info__text">New York</span>
+                       </li>
+                       <li class="info__item">
+                           <span class="info__text">$ 699</span>
+                       </li>
+                    </ul>
+               </form> 
+           </div>
+           <div role="group" class="form-part__wrapper">
+                <p class="checkin-form__text">Apply your personal info for registration </p>
+                <form class="chekin-form">
+                   <label class="checkin-form__field"> 
+                       <input class="checkin-form__input" type="text" name="user-name" placeholder="Your name" pattern="^[a-zA-Z]+">
+                   </label>
+                   <label class="checkin-form__field">
+                       <input class="checkin-form__input" type="tel" name="tel" placeholder="Phone number" pattern="[0-9]{5,10}">
+                   </label>
+                   <label class="checkin-form__field">
+                       <input class="checkin-form__input" type="email" name="mail" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                   </label>
+               </form>  
+           </div>
+           <div role="group" class="form-part__wrapper">
+               <button class="button primary" type="submit">Register</button>
+           </div>
+       </div>
+
+   </div>
+  </section>
+
+ 

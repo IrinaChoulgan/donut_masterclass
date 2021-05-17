@@ -1,7 +1,10 @@
 .container {
   width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
+  /* position: relative; */
 
   // max-width: 1200px;
   // overflow: 1px solid green;
@@ -12,9 +15,13 @@
 
   @media screen and (min-width: 768px) {
     width: 768px;
+    padding-right: 67px;
+    padding-left: 67px;
   }
 
   @media screen and (min-width: 1280px) {
     width: 1280px;
+    padding-right: 229px;
+    padding-left: 229px;
   }
 }
