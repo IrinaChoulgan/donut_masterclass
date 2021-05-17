@@ -20,7 +20,7 @@ label {
     border-radius: 150px 150px 0px 0px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FFFFF9;
+    background-color: var(--input-color);
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     }
 }
@@ -34,7 +34,7 @@ margin-left: auto;
    
     display: flex;
     flex-wrap: nowrap;
-    background-color: #FFFFF9;
+    background-color: var(--input-color);
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     }
 }
@@ -65,7 +65,7 @@ margin-left: auto;
 
 .form-part__image{
     @media screen and (min-width: 768px) and (max-width: 1279px) {
-    left: -20px;
+    left: -17px;
     top:34px;
         }
     @media screen and (min-width: 1280px) {
@@ -86,7 +86,7 @@ margin-left: auto;
 .form-part__image--confetti{
     @media screen and (min-width: 1280px) {
     top:50px;
-    left: 600px;
+    right: 104px;
     }
 
     @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -96,13 +96,15 @@ margin-left: auto;
 }
 
 
-    .chekin-form__thumb:nth-child(2) {
-        @media screen and (max-width: 767px)  {
-            margin-top: 37px;
-           
+.chekin-form__thumb:nth-child(2) {
+    @media screen and (max-width: 767px)  {
+        margin-top: 37px;
         }
-        @media screen and (min-width: 1280px)  {
-            margin-left: 50px;
+    @media screen and (min-width: 1280px)  {
+        margin-left: 50px;
+    }
+    @media screen and (min-width: 768px)  {
+    margin-left: 25px;
     }
 }
 
@@ -159,8 +161,9 @@ margin-left: auto;
 
     @media screen and (min-width: 768px) and (max-width: 1279px){
     margin: 0;
+    padding-top: 19px;
     padding-right: 30px;
-    padding-left: 10px;
+    margin-left: 35px;
     }
     @media screen and (min-width: 1280px){
     padding-left: 107px; 
@@ -170,6 +173,7 @@ margin-left: auto;
 
 .inform-wrapper{
     @media screen and (min-width: 768px){
+        height: 190px;
     margin-top: 35px;
     margin-bottom: 35px;
     border-right: 1px solid rgba(171, 129, 108, 0.5);
@@ -181,6 +185,7 @@ margin-left: auto;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+    max-width: 114px;
   
 }
 
@@ -264,7 +269,7 @@ margin-left: auto;
     border: none;
     border-bottom: 1px solid var(--marker-color);
     padding-top: 16px;
-    background-color: #FFFFF9;
+    background-color: var(--input-color);
 
     @media screen and (min-width: 768px) and (max-width: 1279px){
         width: 234px;
@@ -273,7 +278,7 @@ margin-left: auto;
     &::placeholder{
         font-size: 16px;
         line-height: 1.22;
-        color: rgba(171, 129, 108, 0.5);
+        color: var(--placeholder-color);
         }
 }
 
