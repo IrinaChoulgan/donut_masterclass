@@ -143,6 +143,7 @@ label {
     margin-left: 35px;
     }
     @media screen and (min-width: 1280px){
+    padding-top: 19px;
     padding-left: 107px; 
     padding-right: 30px;
     }
@@ -231,11 +232,11 @@ label {
     @media screen and (max-width: 767px)  {
         margin-top: 37px;
         }
-    @media screen and (min-width: 1280px)  {
-        margin-left: 50px;
-    }
-    @media screen and (min-width: 768px)  {
+    @media screen and (min-width: 768px) and (min-width: 1279px) {
     margin-left: 25px;
+    }
+    @media screen and (min-width: 1280px)  {
+        margin-left: 38px;
     }
 }
 
@@ -268,7 +269,7 @@ label {
     padding-top: 16px;
     background-color: var(--input-color);
 
-    @media screen and (min-width: 768px) and (max-width: 1279px){
+    @media screen and (min-width: 768px){
         width: 234px;
     }
 
