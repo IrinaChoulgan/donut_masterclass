@@ -10,6 +10,9 @@
   .registration{
     padding-top: 40px;
     padding-bottom: 51px;
+    @media screen and (min-width: 768px) and (max-width: 1279px){
+    overflow: hidden;
+    }
   }
   
   .form-part {
@@ -53,7 +56,7 @@
   
   .form-part__image{
     @media screen and (min-width: 768px) and (max-width: 1279px) {
-    left: -17px;
+    left: -5px;
     top:34px;
         }
     @media screen and (min-width: 1280px) {
@@ -73,9 +76,10 @@
   
   .form-part__image--confetti{
     @media screen and (min-width: 1280px) {
-    width: 50%;
-    top:0;
-    right: 0;
+      width: 50%;
+      top: 15px;
+      right: 0;
+      transform: rotate(-7.68deg);
     }
     @media screen and (min-width: 768px)and (max-width: 1279px){
     width: 50%;
