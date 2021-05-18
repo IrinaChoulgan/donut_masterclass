@@ -34,12 +34,37 @@
   margin-bottom: 10px;
 }
 
+.btn-toggle-content {
+  cursor: pointer;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}
+
+.switchable-content {
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  max-height: 0;
+
+  &.is-open {
+    max-height: 200px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-height: 200px;
+    opacity: 1;
+  }
+}
+
 .program-left-block__item {
   margin-bottom: 10px;
 
   // list-style-type: '\003E'+ ' ';
 
-  &::before {
+  &:not(:last-child)::before {
     content: '\1F369'+ ' ';
   }
 }
