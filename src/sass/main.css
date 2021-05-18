@@ -1312,6 +1312,12 @@ label {
   color: var(--primary-text-color);
 }
 
+@media screen and (min-width: 1280px) {
+  .reviews__title {
+    font-size: 36px;
+  }
+}
+
 .grid {
   display: -webkit-box;
   display: -ms-flexbox;

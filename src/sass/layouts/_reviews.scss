@@ -39,6 +39,9 @@
     line-height: 1.17;
     text-align: center;
     color: var(--primary-text-color);
+    @media screen and (min-width: 1280px) {
+      font-size: 36px;
+    }
 
 }
 .grid {
