@@ -3,29 +3,27 @@
     <div class="container form-part">
         <h2 class="form-part__title">Registration</h2>
         <div class="form-part__image">
-            <picture">
+            <picture>
                 <source srcset="./images/desktop/donut5-desktop.png 1x, ./images/desktop/donut5-desktop@2x.png 2x" media="(min-width: 1280px)"/>
-                <source srcset=" ./images/tablet/donut5-tablet.png 1x, ./images/tablet/donut5-tablet@2x.png 2x "media="(min-width: 768px)" class="tablet"/>
+                <source srcset="./images/tablet/donut5-tablet.png 1x, ./images/tablet/donut5-tablet@2x.png 2x" media="(min-width: 768px)"/>
                 <img class="donut" src="./images/desktop/donut5-desktop.png " alt="donut">
             </picture>
         </div>
-    <div class="form-part__image--confetti">
-        <picture">
-            <source srcset="./images/desktop/confetti-desktop.png 1x,./images/desktop/confetti-desktop@2x.png 2x" media="(min-width: 1280px)" class="desktop"/>
-            <source srcset="./images/tablet/confetti-tablet.png 1x,./images/tablet/confetti-tablet@2x.png 2x" media="(min-width: 768px)" class="tablet"/>
-            <img class="confetti" src="./images/desktop/confetti-desktop.png " alt="confetti">
-        </picture>
+        <div class="form-part__image--confetti">
+            <picture>
+                <source srcset="./images/desktop/confetti-desktop.png 1x, ./images/desktop/confetti-desktop@2x.png 2x" media="(min-width: 1280px)" />
+                <source srcset="./images/tablet/confetti-tablet.png 1x, ./images/tablet/confetti-tablet@2x.png 2x" media="(min-width: 768px)" />
+                <img src="./images/desktop/confetti-desktop.png" alt="confetti">
+            </picture>
     </div>
     <div class="form-part__bg ">
         <div class="inform-wrapper">
-            <form role="group" class="inform-form">
-                <label class="inform-form__field">
-                    <input class="inform-form__input" type="datetime-local" name="date-time" min="2021-05-23T11:00" max="2021-05-23T11:00"> 
-                </label>
-            </form> 
             <ul class="inform-list list">
                 <li class="inform-list__item">
-                    <span class="inform-list__text">New York</span>
+                    <span class="inform-list__text">May 23, 11:00</span>
+                </li>
+                <li class="inform-list__item">
+                    New York
                 </li>
                 <li class="inform-list__item">
                     <span class="inform-list__text">$ 699</span>
@@ -50,6 +48,7 @@
                         <button class="button primary" type="submit">Register</button>
                     </div>
                 </form> 
+            </div>
         </div>
     </div>
 </section>
