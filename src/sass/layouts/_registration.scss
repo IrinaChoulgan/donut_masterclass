@@ -73,17 +73,20 @@ label {
 
 .form-part__image--confetti{
     @media screen and (min-width: 1280px) {
-    top:50px;
-    right: 104px;
+    width: 50%;
+    top:0;
+    right: 0;
     }
     @media screen and (min-width: 768px)and (max-width: 1279px){
-        right: 50px;
-        bottom: -30px;
+    width: 50%;
+    top: 0;
+    right: 0;
+    transform: translate(-25%, 25%);
     }        
 }
 .form-part__image,
 .form-part__image--confetti{
-    width: 100%;
+   
     position: absolute;
     z-index: -1;
 }
