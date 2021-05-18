@@ -131,6 +131,7 @@ label {
     }
 
     @media screen and (min-width: 768px) {
+        text-align: end;
         flex-direction: column;
         padding-top: 19px;
         padding-right: 30px;
@@ -138,18 +139,10 @@ label {
 
     @media screen and (min-width: 768px) and (max-width: 1279px){
         padding-left: 35px;
-
-        &:last-child{
-            padding-top: 35px;
-        }
     }
 
     @media screen and (min-width: 1280px){
         padding-left: 107px;
-
-        &:last-child{
-            padding-top: 30px;
-        }
     }
 }
 
@@ -157,6 +150,18 @@ label {
     @media screen and (max-width: 767px) {
     padding-bottom: 25px;
     }
+
+    @media screen and (min-width: 768px) and (max-width: 1279px){
+        &:last-child{
+            padding-top: 35px;
+        }
+    }
+
+    @media screen and (min-width: 1280px){
+    &:last-child{
+        padding-top: 30px;
+    }
+}
 }
 
 
@@ -198,11 +203,12 @@ label {
         flex-direction: column;
         margin-top: auto;
         margin-bottom: auto;
-        
     }
 }
 
 .chekin-form__thumb:nth-child(2) {
+
+
     @media screen and (max-width: 767px)  {
         margin-top: 37px;
         }
@@ -211,6 +217,8 @@ label {
     }
     @media screen and (min-width: 1280px)  {
         margin-left: 38px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 
@@ -223,7 +231,6 @@ label {
     }
     @media screen  and (min-width: 1280px){
     font-size: 18px;
-    padding-top: 19px;
     }
 }
 
