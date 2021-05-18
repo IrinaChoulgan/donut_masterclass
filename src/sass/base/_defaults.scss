@@ -29,6 +29,14 @@ h6 {
   margin: 0px;
 }
 
+h2 {
+  font-size: 24px;
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+    font-style: normal;
+  }
+}
+
 p {
   margin: 0;
 }
@@ -89,4 +97,6 @@ label {
   line-height: 3.61px;
   text-align: center;
   color: var(--marker-color);
+  font-family: var(--title-font);
+  text-align: left;
 }
