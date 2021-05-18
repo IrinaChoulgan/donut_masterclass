@@ -20,6 +20,7 @@ label {
     border-radius: 150px 150px 0px 0px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 47px;
     background-color: var(--input-color);
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     }
@@ -229,30 +230,18 @@ label {
     }
 }
 
-.checkin-form__field:first-child .checkin-form__input{
-    @media screen and (min-width: 1280px){
-    padding-top: 14px;
-    }
-    @media screen and (min-width: 768px) and (max-width: 1279px){
-    padding-top: 18px;
-    }
-}
-
 .checkin-form__input{
     margin: 0;
     border: none;
     border-bottom: 1px solid var(--marker-color);
-    
     background-color: var(--input-color);
 
-    @media screen and (min-width: 768px){
-        padding-top: 13px;
-        &:first-child{
-            padding-top: 11px;
-        }
+    @media screen and (max-width: 767px){
+        max-width: 260px;
     }
 
     @media screen and (min-width: 768px){
+        padding-top: 13px;
         width: 234px;
     }
 
@@ -263,11 +252,7 @@ label {
         }
 }
 
-.checkin-form__input{
-    @media screen and (max-width: 767px){
-        max-width: 260px;
-    }
-}
+
 
 
 
