@@ -1312,6 +1312,12 @@ label {
   color: var(--primary-text-color);
 }
 
+@media screen and (min-width: 1280px) {
+  .reviews__title {
+    font-size: 36px;
+  }
+}
+
 .grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1350,6 +1356,18 @@ label {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .grid__item_center {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .grid__item_center {
+    padding-top: 20px;
+  }
+}
+
 .reviews__item {
   --grid__item: 3;
 }
@@ -1360,7 +1378,7 @@ label {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .reviews__item {
     --grid__item: 3;
   }

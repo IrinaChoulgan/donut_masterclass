@@ -39,6 +39,9 @@
     line-height: 1.17;
     text-align: center;
     color: var(--primary-text-color);
+    @media screen and (min-width: 1280px) {
+      font-size: 36px;
+    }
 
 }
 .grid {
@@ -65,6 +68,15 @@
  
   justify-content: center
 }
+.grid__item_center{
+  @media screen and (min-width: 768px) {
+    padding-top: 25px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 20px;
+  }
+}
 .reviews__item{
     --grid__item: 3;
     
@@ -72,7 +84,7 @@
         --grid__item: 3;
     }
     
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         --grid__item: 3;
     }
     }
