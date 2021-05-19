@@ -1985,8 +1985,8 @@ label {
 }
 
 @media screen and (max-width: 767px) {
-  .inform-list__item {
-    padding-bottom: 25px;
+  .inform-list__item:last-child {
+    padding-top: 25px;
   }
 }
 
