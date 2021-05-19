@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
   }
+
   .registration{
     padding-top: 40px;
     padding-bottom: 51px;
@@ -249,6 +250,12 @@
     }
   }
   
+  .checkin-form__field:first-child{
+    @media screen and (min-width: 768px) and (max-width: 1279px){
+     margin-top: 14px;
+    }
+  }
+  
   .checkin-form__input{
     border: none;
     border-bottom: 1px solid var(--marker-color);
@@ -266,9 +273,6 @@
     @media screen and (min-width: 768px){
         margin-top: 12px;
         width: 234px;
-        &:not(:first-child){
-          margin-top: 14px;
-        }
     }
   
     &::placeholder{
