@@ -2089,7 +2089,6 @@ label {
 
 @media screen and (min-width: 768px) {
   .checkin-form__input {
-    padding-top: 13px;
     width: 234px;
   }
 }
@@ -2106,11 +2105,7 @@ label {
   color: var(--placeholder-color);
 }
 
-.checkin-form__input::-ms-input-placeholder {
-  font-size: 16px;
-  line-height: 1.22;
-  color: var(--placeholder-color);
-}
+
 
 .checkin-form__input::placeholder {
   font-size: 16px;
