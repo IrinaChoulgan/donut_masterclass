@@ -1628,11 +1628,6 @@ label {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .inform-list__item {
-    padding-bottom: 25px;
-  }
-}
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .inform-list__item:last-child {

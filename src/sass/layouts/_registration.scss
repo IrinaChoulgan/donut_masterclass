@@ -156,11 +156,14 @@
     @media screen and (max-width: 767px) {
       &:last-child{
       padding-top: 25px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--placeholder-color);
     }
   }
     @media screen and (min-width: 768px) and (max-width: 1279px){
         &:last-child{
             padding-top: 35px;
+
         }
     }
     @media screen and (min-width: 1280px){
