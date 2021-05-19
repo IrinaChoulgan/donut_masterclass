@@ -99,6 +99,9 @@ input:invalid {
 
 .contact__btn {
   margin-bottom: 50px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 82px;
+  }
 }
 
 .footer-contacts {
