@@ -45,6 +45,7 @@ label {
     font-size: 24px;
     line-height: 2.71;
   }
+
   @media screen and (min-width: 1280px) {
     font-size: 36px;
     line-height: 1.81;
@@ -71,8 +72,10 @@ label {
 
 .form-part__image--confetti {
   @media screen and (min-width: 1280px) {
+    /* z-index: 1; */
     top: 29px;
-    right: -39px;
+    right: 0;
+    max-width: 100%;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -177,9 +180,11 @@ label {
 .inform-list__text {
   font-weight: 500;
   line-height: 1.22;
+
   @media screen and (max-width: 1279px) {
     font-size: 18px;
   }
+
   @media screen and (min-width: 1280px) {
     font-size: 20px;
   }
@@ -194,10 +199,11 @@ label {
   }
 }
 
-.checkin-wrapper > form {
+.checkin-wrapper>form {
   @media screen and (max-width: 767px) {
     display: block;
   }
+
   @media screen and (min-width: 768px) {
     display: flex;
   }
@@ -217,9 +223,11 @@ label {
   @media screen and (max-width: 767px) {
     margin-top: 37px;
   }
+
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     margin-left: 25px;
   }
+
   @media screen and (min-width: 1280px) {
     margin-left: 38px;
   }
@@ -229,8 +237,10 @@ label {
   @media screen and (max-width: 767px) {
     padding-top: 11px;
   }
+
   font-size: 16px;
   line-height: 1.22;
+
   @media screen and (min-width: 1280px) {
     font-size: 18px;
   }
@@ -265,9 +275,10 @@ label {
 }
 
 [type='text'] {
-  @media screen  and (max-width: 1279px) {
+  @media screen and (max-width: 1279px) {
     margin-top: 17px;
   }
+
   @media screen and (min-width: 1280px) {
     margin-top: 13px;
   }
