@@ -2,126 +2,74 @@
   <div class="container footer__container">
     <div class="background__footer">
       <picture>
-        <source
-          srcset="
+        <source srcset="
             .//images/desktop/bg_footer-desktop.png    1x,
             .//images/desktop/bg_footer-desktop@2x.png 2x
-          "
-          media="(min-width: 1280px)"
-          type="image/png"
-        />
-        <source
-          srcset="
+          " media="(min-width: 1280px)" type="image/png" />
+        <source srcset="
             .//images/tablet/bg_footer-tablet.png    1x,
             .//images/tablet/bg_footer-tablet@2x.png 2x
-          "
-          media="(min-width: 768px)"
-          type="image/png"
-        />
-        <source
-          srcset="
+          " media="(min-width: 768px)" type="image/png" />
+        <source srcset="
             .//images/mobile/bg_footer-mobile.png    1x,
             .//images/mobile/bg_footer-mobile@2x.png 2x
-          "
-          media="(max-width: 767px)"
-          type="image/png"
-        />
-        <img
-          class="background__image background__image--footer"
-          src=".//images/desktop/bg_footer-desktop.png"
-          alt="background"
-        />
+          " media="(max-width: 767px)" type="image/png" />
+        <img class="background__image background__image--footer" src=".//images/desktop/bg_footer-desktop.png"
+          alt="background" />
       </picture>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
       <h2 class="contact__title">Contact</h2>
       <p class="contact__text">We will answer any question!</p>
       <form class="contact__form">
-        <input
-          class="contact__mail"
-          type="email"
-          placeholder="Email"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-          minlength="3"
-        />
-        <input
-          class="contact__question"
-          type="text"
-          placeholder="Type your question"
-          minlength="3"
-        />
+        <input class="contact__mail" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          minlength="3" />
+        <input class="contact__question" type="text" placeholder="Type your question" minlength="3" />
         <button class="contact__btn button" type="submit">Send</button>
       </form>
     </div>
     <div class="social-icons social-icons__footer">
       <ul class="social-icons list">
         <li class="social-icons__item">
-          <a
-            class="social-icons__link"
+          <a class="social-icons__link"
             href="https://twitter.com/intent/tweet?original_referer=http://fiddle.jshell.net/_display/&text=Donut Masterclass&url=https://irinachoulgan.github.io/donut_masterclass"
-            target="_blank"
-            onclick="return Share.me(this)"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-            ><svg class="icon social-icons__icon" width="19" height="15">
-              <use href="./images/icons/icons.svg#icon-twitter"></use></svg
-          ></a>
+            target="_blank" onclick="return Share.me(this)" rel="noopener noreferrer" aria-label="twitter"><svg
+              class="icon social-icons__icon" width="19" height="15">
+              <use href="./images/icons/icons.svg#icon-twitter"></use>
+            </svg></a>
         </li>
         <li class="social-icons__item">
-          <a
-            class="social-icons__link"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            onclick="return Share.me(this);"
-            aria-label="instagram"
-            href=""
-            aria-label="instagram"
-            ><svg class="icon social-icons__icon" width="15" height="15">
+          <a class="social-icons__link" href="" target="_blank" rel="noopener noreferrer"
+            onclick="return Share.me(this);" aria-label="instagram" href="" aria-label="instagram"><svg
+              class="icon social-icons__icon" width="15" height="15">
               <use href="./images/icons/icons.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li class="social-icons__item">
-          <a
-            class="social-icons__link"
-            href="http://www.facebook.com/sharer/sharer.php?s=100&p[title]=Donut Masterclass&p%5Bsummary%5D=Oh My Donut is the shop which adores tasty deserts and spend hours to create sophisticated donuts which will save the world!
-&p%5Burl%5D=https://irinachoulgan.github.io/donut_masterclass&p[images][0]=[IMAGE]"
-            target="_blank"
-            rel="noopener noreferrer"
-            onclick="return Share.me(this);"
-            aria-label="facebook"
-          >
+          <a class="social-icons__link" href="http://www.facebook.com/sharer/sharer.php?s=100&p[title]=Donut Masterclass&p%5Bsummary%5D=Oh My Donut is the shop which adores tasty deserts and spend hours to create sophisticated donuts which will save the world!
+&p%5Burl%5D=https://irinachoulgan.github.io/donut_masterclass&p[images][0]=[IMAGE]" target="_blank"
+            rel="noopener noreferrer" onclick="return Share.me(this);" aria-label="facebook">
             <svg class="icon social-icons__icon" width="8" height="15">
-              <use href="./images/icons/icons.svg#icon-facebook"></use></svg
-          ></a>
+              <use href="./images/icons/icons.svg#icon-facebook"></use>
+            </svg></a>
         </li>
       </ul>
       <picture class="footer-picture">
-        <source
-          srcset="
+        <source srcset="
             ./images/desktop/wheat_flour-desktop.png    1x,
             ./images/desktop/wheat_flour-desktop@2x.png 2x
-          "
-          media="(min-width: 1200px)"
-        />
+          " media="(min-width: 1200px)" />
 
-        <source
-          srcset="
+        <source srcset="
             ./images/tablet/wheat_flour-tablet.png    1x,
             ./images/tablet/wheat_flour-tablet@2x.png 2x
-          "
-          media="(min-width: 768px)"
-          class="tablet"
-        />
+          " media="(min-width: 768px)" class="tablet" />
 
-        <source
-          srcset="
+        <source srcset="
             ./images/mobile/wheat_flour-mobile.png    1x,
             ./images/mobile/wheat_flour-mobile@2x.png 2x
-          "
-          media="(min-width: 320px)"
-        />
+          " media="(min-width: 320px)" />
 
         <img src="./images/desktop/wheat_flour-desktop.png" alt="wheat flour" />
       </picture>
@@ -129,24 +77,18 @@
     <div class="footer-contacts">
       <ul class="footer-contacts__list">
         <li class="footer-contacts__item">
-          <a class="link footer-contacts__tel" href="tel:+9102228855"
-            ><svg class="footer-contacts__icon" width="13" height="13">
-              <use href="./images/icons/icons.svg#icon-phone"></use></svg
-            >(910)222-8855</a
-          >
+          <a class="link footer-contacts__tel" href="tel:+9102228855"><svg class="footer-contacts__icon" width="13"
+              height="13">
+              <use href="./images/icons/icons.svg#icon-phone"></use>
+            </svg>(910)222-8855</a>
         </li>
         <li class="footer-contacts__item">
-          <a
-            class="link footer-contacts__address"
-            href="https://goo.gl/maps/8JXVMuq43jZi7bgT9"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a class="link footer-contacts__address" href="https://goo.gl/maps/8JXVMuq43jZi7bgT9" target="_blank"
+            rel="noopener noreferrer">
             <svg class="footer-contacts__icon" width="11" height="14">
               <use href="./images/icons/icons.svg#icon-location"></use>
             </svg>
-            New York</a
-          >
+            New York</a>
         </li>
       </ul>
     </div>
