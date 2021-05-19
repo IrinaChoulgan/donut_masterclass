@@ -246,17 +246,17 @@
   }
   
   .checkin-form__input{
-    margin: 0;
     border: none;
     border-bottom: 1px solid var(--marker-color);
     background-color: var(--input-color);
   
     @media screen and (max-width: 767px){
-        max-width: 260px;
+      margin-top: 22px;
+      max-width: 260px;
     }
   
     @media screen and (min-width: 768px){
-        padding-top: 13px;
+        margin-top: 13px;
         width: 234px;
     }
   
