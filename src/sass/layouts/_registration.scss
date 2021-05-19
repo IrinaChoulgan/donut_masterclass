@@ -8,8 +8,8 @@ label {
 }
 
 .registration {
-  padding-top: 40px;
-  padding-bottom: 51px;
+  padding-top: 30px;
+  padding-bottom: 27px;
 }
 
 .form-part {
@@ -248,7 +248,7 @@ label {
   }
 
   @media screen and (max-width: 767px) {
-    margin-top: 22px;
+    margin-top: 25px;
     width: 265px;
   }
 
@@ -265,7 +265,7 @@ label {
 }
 
 [type='text'] {
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
+  @media screen  and (max-width: 1279px) {
     margin-top: 17px;
   }
   @media screen and (min-width: 1280px) {
