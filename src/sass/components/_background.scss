@@ -2,26 +2,34 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  /* width: 100%; */
+}
+
+/* .background__image {
+  width: 100%;
 
   @media screen and (min-width: 320px) {
-    width: 320px;
+    width: 100vw;
+  }
+} */
+
+.background__image--header {
+  @media screen and (max-width: 767.98px) {
+    max-height: 461px;
   }
 
   @media screen and (min-width: 768px) {
-    width: 768px;
+    max-height: 622px;
   }
 
   @media screen and (min-width: 1280px) {
-    min-width: 1280px;
+    max-height: 1035.52px;
   }
-}
-
-.background__image {
-  width: 100vw;
 }
 
 .background__donuts {
   position: absolute;
+  z-index: -1;
 
   @media screen and (max-width: 767.98px) {
     width: 120px;
@@ -47,60 +55,53 @@
   z-index: -10;
   left: 0;
   top: 0;
-
-  @media screen and (max-width: 767.98px) {
-    width: 320px;
-    left: 0px;
-    top: 0px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 769px;
-    left: -1px;
-    top: 0px;
-  }
-
-  @media screen and (min-width: 1280px) {
-    width: 1280px;
-    left: 0px;
-    top: 0px;
-  }
+  width: 100%;
 }
 
 .background__footer {
   position: absolute;
   z-index: -10;
-  width: 100%;
+  /* width: 100%; */
 
   @media screen and (max-width: 767.98px) {
-    width: 324px;
-    height: auto;
-    left: -3px;
+    left: 0px;
     bottom: 216.4px;
+    right: 0;
   }
 
   @media screen and (min-width: 768px) {
-    width: 773px;
-    height: auto;
-    left: -5px;
+    left: 0px;
     bottom: 63.01px;
   }
 
   @media screen and (min-width: 1280px) {
-    width: 1285.78px;
-    height: auto;
-    left: -5.78px;
+    left: 0px;
     bottom: 0;
   }
 }
 
 .background__spoon {
   position: absolute;
+  z-index: -1;
   width: 100%;
   left: 0;
   top: 170px;
 
   @media screen and (max-width: 1279px) {
     display: none;
+  }
+}
+
+.background__image--footer {
+  @media screen and (max-width: 767.98px) {
+    max-height: 1290px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 1259.99px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 1325px;
   }
 }

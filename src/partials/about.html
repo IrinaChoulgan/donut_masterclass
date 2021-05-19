@@ -1,58 +1,54 @@
-<div class="container">
-    <div class="about-us  ">
-        <div class="left-block__about-us">
+<section hrev="#about-us" id="about-us">
+  <div class="container about-us__container">
+    <div class="about-us">
+      <div class="left-block__about-us">
+        <picture>
+          <source
+            srcset="./images/desktop/box-desktop.png 1x, ./images/desktop/box-desktop@2x.png 2x"
+            media="(min-width: 1200px)"
+          />
 
-            <picture>
+          <source
+            srcset="./images/tablet/box-tablet.png 1x, ./images/tablet/box-tablet@2x.png 2x"
+            media="(min-width: 768px)"
+            class="tablet"
+          />
 
-                <source srcset="./images/desktop/box-desktop.png 1x, ./images/desktop/box-desktop@2x.png 2x"
-                    media="(min-width: 1200px)" />
+          <source
+            srcset="./images/mobile/box-mobile.png 1x, ./images/mobile/box-mobile@2x.png 2x"
+            media="(min-width: 320px)"
+          />
 
+          <img src="./images/desktop/box-desktop.png" alt="donut and box" />
+        </picture>
+      </div>
 
-                <source srcset="./images/tablet/box-tablet.png 1x, ./images/tablet/box-tablet@2x.png 2x"
-                    media="(min-width: 768px)" class="tablet" />
+      <div class="right-block__about-us">
+        <h2 class="about-us__title">About us</h2>
 
+        <ul class="about-us__text">
+          <li class="p1 p2">
+            Oh My Donut is the shop which adores tasty deserts and spend hours to create
+            sophisticated donuts which will save the world!
+          </li>
 
-                <source srcset="./images/mobile/box-mobile.png 1x, ./images/mobile/box-mobile@2x.png 2x"
-                    media="(min-width: 320px)" />
+          <li class="p2">
+            Eva has been baking since she was six years old and over the last 49 years, she has
+            created hundreds of cakes for weddings and has baked for many celebrities. Eva and our
+            shop have received multiple awards & recognition for excellence.
+          </li>
 
-                <img src="./images/desktop/box-desktop.png" alt="donut and box" />
-            </picture>
-        </div>
-
-        <div class="right-block__about-us">
-
-            <h2 class="about-us__title">About us</h2>
-            <!--
-        <p class="about-us__text" align="left">Oh My Donut is the shop which adores tasty deserts and spend hours to create
-            sophisticated donuts which will save the
-            world!!
-            <br>
-            Eva has been baking since she was six years old and over the last 49 years, she
-            has created hundreds of cakes for weddings and has baked for many celebrities. Eva and our shop have
-            received multiple awards & recognition for excellence.
-            <br>
-            <button type="button"><span class="button__title">Read more</span></button>
-            <br>
-            We are going to teach you how to cook with passion and sparkles in your eyes! We love
-            what we do and believe you will enjoy our cooking atmosphere!!
-        </p>
-    -->
-            <ul class="about-us__text">
-                <li>Oh My Donut is the shop which adores tasty deserts and spend hours to create
-                    sophisticated donuts which will save the
-                    world!!
-                </li>
-                <li>
-                    Eva has been baking since she was six years old and over the last 49 years, she
-                    has created hundreds of cakes for weddings and has baked for many celebrities. Eva and our shop have
-                    received multiple awards & recognition for excellence.
-                </li>
-                <button type="button"><span class="button__title">Read more</span></button>
-                <li>
-                    We are going to teach you how to cook with passion and sparkles in your eyes! We love
-                    what we do and believe you will enjoy our cooking atmosphere!!</li>
-            </ul>
-        </div>
+          <li class="p3">
+            <p class="switchable-content">
+              We are going to teach you how to cook with passion and sparkles in your eyes! We love
+              what we do and believe you will enjoy our cooking atmosphere!
+            </p>
+            <span class="js-btn-toggle-content btn-toggle-content read-more read-more__about"
+              >Read more</span
+            >
+          </li>
+        </ul>
+      </div>
     </div>
-
-</div>
+  </div>
+</section>

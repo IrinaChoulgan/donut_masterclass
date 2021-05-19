@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  min-width: 320px;
   margin: 0;
   font-family: var(--text-font), cursive;
   font-style: normal;
@@ -26,7 +27,16 @@ h4,
 h5,
 h6 {
   font-family: var(--title-font);
+  font-weight: normal;
   margin: 0px;
+}
+
+h2 {
+  font-size: 24px;
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+    font-style: normal;
+  }
 }
 
 p {
@@ -85,9 +95,10 @@ label {
 }
 
 .read-more {
-  font-family: var(--title-font);
   font-size: 18px;
   line-height: 3.61px;
   text-align: center;
-  color: var(--details-color);
+  color: var(--marker-color);
+  font-family: var(--title-font);
+  text-align: left;
 }

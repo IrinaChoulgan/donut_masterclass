@@ -27,13 +27,13 @@
           type="image/png"
         />
         <img
-          class="background__image"
+          class="background__image background__image--footer"
           src=".//images/desktop/bg_footer-desktop.png"
           alt="background"
         />
       </picture>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
       <h2 class="contact__title">Contact</h2>
       <p class="contact__text">We will answer any question!</p>
       <form class="contact__form">
@@ -42,8 +42,14 @@
           type="email"
           placeholder="Email"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          minlength="3"
         />
-        <input class="contact__question" type="text" placeholder="Type your question" />
+        <input
+          class="contact__question"
+          type="text"
+          placeholder="Type your question"
+          minlength="3"
+        />
         <button class="contact__btn button" type="submit">Send</button>
       </form>
     </div>
@@ -57,21 +63,21 @@
             onclick="return Share.me(this)"
             rel="noopener noreferrer"
             aria-label="twitter"
-            ><svg class="icon social-icons__icon">
+            ><svg class="icon social-icons__icon" width="19" height="15">
               <use href="./images/icons/icons.svg#icon-twitter"></use></svg
           ></a>
         </li>
         <li class="social-icons__item">
           <a
             class="social-icons__link"
-            href=""
+            href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
             onclick="return Share.me(this);"
             aria-label="instagram"
             href=""
             aria-label="instagram"
-            ><svg class="icon social-icons__icon">
+            ><svg class="icon social-icons__icon" width="15" height="15">
               <use href="./images/icons/icons.svg#icon-instagram"></use>
             </svg>
           </a>
@@ -86,7 +92,7 @@
             onclick="return Share.me(this);"
             aria-label="facebook"
           >
-            <svg class="icon social-icons__icon" width="19" height="15">
+            <svg class="icon social-icons__icon" width="8" height="15">
               <use href="./images/icons/icons.svg#icon-facebook"></use></svg
           ></a>
         </li>
