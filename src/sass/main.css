@@ -17,6 +17,7 @@ html {
 }
 
 body {
+  min-width: 320px;
   margin: 0;
   font-family: var(--text-font), cursive;
   font-style: normal;
@@ -33,7 +34,19 @@ h4,
 h5,
 h6 {
   font-family: var(--title-font);
+  font-weight: normal;
   margin: 0px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 1280px) {
+  h2 {
+    font-size: 36px;
+    font-style: normal;
+  }
 }
 
 p {
@@ -96,6 +109,8 @@ label {
   line-height: 3.61px;
   text-align: center;
   color: var(--marker-color);
+  font-family: var(--title-font);
+  text-align: left;
 }
 
 .logo {
@@ -148,6 +163,7 @@ html {
 }
 
 body {
+  min-width: 320px;
   margin: 0;
   font-family: var(--text-font), cursive;
   font-style: normal;
@@ -164,7 +180,19 @@ h4,
 h5,
 h6 {
   font-family: var(--title-font);
+  font-weight: normal;
   margin: 0px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 1280px) {
+  h2 {
+    font-size: 36px;
+    font-style: normal;
+  }
 }
 
 p {
@@ -227,6 +255,8 @@ label {
   line-height: 3.61px;
   text-align: center;
   color: var(--marker-color);
+  font-family: var(--title-font);
+  text-align: left;
 }
 
 .container {
@@ -315,8 +345,8 @@ label {
 
 @media screen and (min-width: 768px) {
   .header__menu-btn {
-    top: 10;
-    right: 67;
+    top: 27px;
+    right: 67px;
   }
 }
 
@@ -465,7 +495,13 @@ label {
 }
 
 .background__image {
-  width: 100vw;
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+  .background__image {
+    width: 100vw;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
@@ -696,13 +732,9 @@ label {
   margin-bottom: 3px;
   margin-left: auto;
   margin-right: auto;
-  font-family: var(--title-font);
-  font-style: normal;
-  font-weight: normal;
   font-size: 30px;
   line-height: 1.27;
   text-align: center;
-  color: var(--primary-text-color);
 }
 
 @media screen and (min-width: 320px) {
@@ -728,12 +760,11 @@ label {
 }
 
 .hero__subtitle {
-  font-family: Montserrat;
-  font-style: normal;
+  font-family: var(--text-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
-  color: #2e2520;
+  color: var(--primary-text-color);
   margin-bottom: 37px;
 }
 
@@ -794,7 +825,9 @@ label {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
   line-height: 2.71;
 }
 
@@ -804,11 +837,13 @@ label {
         -ms-flex-pack: start;
             justify-content: flex-start;
     font-size: 24px;
+    font-weight: normal;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .about-us__title {
+    font-weight: normal;
     font-size: 36px;
     line-height: 1.81;
     display: contents;
@@ -820,6 +855,7 @@ label {
   font-size: 16px;
   line-height: 20px;
   margin: 0;
+  font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
@@ -827,6 +863,7 @@ label {
     width: 336px;
     font-size: 16px;
     line-height: 20px;
+    font-weight: normal;
     padding-right: 0;
     color: var(--primary-text-color);
   }
@@ -840,6 +877,8 @@ label {
     margin-top: 0.5em;
     padding-right: 0;
     margin-bottom: 0.5em;
+    font-weight: normal;
+    margin-top: 10px;
   }
 }
 
@@ -998,13 +1037,13 @@ label {
 
 @media screen and (min-width: 320px) {
   .p3 {
-    margin-top: 20px;
+    margin-top: 5px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .p3 {
-    margin-top: 20px;
+    margin-top: 5px;
   }
 }
 
@@ -1502,6 +1541,7 @@ label {
     font-size: 24px;
     line-height: 2.71;
     margin-bottom: 11px;
+    padding-top: 15px;
   }
 }
 
@@ -1552,19 +1592,15 @@ label {
 
 @media screen and (min-width: 1280px) {
   .form-part__image--confetti {
-    width: 50%;
     top: 29px;
-    right: 0;
+    right: -39px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .form-part__image--confetti {
-    width: 50%;
     top: 0;
-    right: 0;
-    -webkit-transform: translate(-28%, 25%);
-            transform: translate(-28%, 25%);
+    right: -209px;
   }
 }
 
@@ -1646,6 +1682,18 @@ label {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .inform-list__item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+  }
+  .inform-list__item:last-child {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--placeholder-color);
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .inform-list__item:last-child {
@@ -1742,6 +1790,22 @@ label {
   line-height: 1.22;
 }
 
+.checkin-form__text:invalid {
+  border: 3px solid red;
+}
+
+@media screen and (max-width: 767px) {
+  .checkin-form__text {
+    padding-top: 11px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .checkin-form__text {
+    margin-bottom: 4px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .checkin-form__text {
     font-size: 18px;
@@ -1749,26 +1813,48 @@ label {
 }
 
 .checkin-form__input {
-  margin: 0;
   border: none;
   border-bottom: 1px solid var(--marker-color);
   background-color: var(--input-color);
 }
 
+.checkin-form__input:invalid {
+  border: 3px solid red;
+}
+
 @media screen and (max-width: 767px) {
   .checkin-form__input {
+    margin-top: 22px;
     max-width: 260px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .checkin-form__input {
+    margin-top: 12px;
     width: 234px;
   }
 }
 
+.checkin-form__input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 1.22;
+  color: var(--placeholder-color);
+}
+
+.checkin-form__input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 1.22;
+  color: var(--placeholder-color);
+}
 
 .checkin-form__input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 1.22;
+  color: var(--placeholder-color);
+}
+
+.checkin-form__input::placeholder {
   font-size: 16px;
   line-height: 1.22;
   color: var(--placeholder-color);
@@ -1829,6 +1915,7 @@ label {
     font-size: 24px;
     line-height: 2.71;
     margin-bottom: 11px;
+    padding-top: 15px;
   }
 }
 
@@ -1879,19 +1966,15 @@ label {
 
 @media screen and (min-width: 1280px) {
   .form-part__image--confetti {
-    width: 50%;
     top: 29px;
-    right: 0;
+    right: -39px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .form-part__image--confetti {
-    width: 50%;
     top: 0;
-    right: 0;
-    -webkit-transform: translate(-28%, 25%);
-            transform: translate(-28%, 25%);
+    right: -209px;
   }
 }
 
@@ -1974,8 +2057,15 @@ label {
 }
 
 @media screen and (max-width: 767px) {
+  .inform-list__item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+  }
   .inform-list__item:last-child {
     padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--placeholder-color);
   }
 }
 
@@ -2074,6 +2164,22 @@ label {
   line-height: 1.22;
 }
 
+.checkin-form__text:invalid {
+  border: 3px solid red;
+}
+
+@media screen and (max-width: 767px) {
+  .checkin-form__text {
+    padding-top: 11px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .checkin-form__text {
+    margin-bottom: 4px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .checkin-form__text {
     font-size: 18px;
@@ -2081,20 +2187,25 @@ label {
 }
 
 .checkin-form__input {
-  margin: 0;
   border: none;
   border-bottom: 1px solid var(--marker-color);
   background-color: var(--input-color);
 }
 
+.checkin-form__input:invalid {
+  border: 3px solid red;
+}
+
 @media screen and (max-width: 767px) {
   .checkin-form__input {
+    margin-top: 22px;
     max-width: 260px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .checkin-form__input {
+    margin-top: 12px;
     width: 234px;
   }
 }
@@ -2111,7 +2222,11 @@ label {
   color: var(--placeholder-color);
 }
 
-
+.checkin-form__input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 1.22;
+  color: var(--placeholder-color);
+}
 
 .checkin-form__input::placeholder {
   font-size: 16px;
@@ -2165,8 +2280,16 @@ label {
   margin-bottom: 27px;
 }
 
+.contact__text:invalid {
+  border: 5px solid red;
+}
+
 .contact__mail {
-  margin-bottom: 27px;
+  margin-bottom: 15px;
+}
+
+.contact__mail:invalid {
+  border: 5px solid red;
 }
 
 .contact__question,
@@ -2175,6 +2298,7 @@ label {
   border-right: none;
   border-left: none;
   width: 265px;
+  height: 22px;
   border-bottom: 1px solid var(--marker-color);
   font-size: 16px;
   line-height: 1, 25;
