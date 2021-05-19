@@ -231,6 +231,10 @@
   }
   
   .checkin-form__text{
+    &:invalid {
+      border: 3px solid red;
+    }
+
     @media screen and (max-width: 767px) {
       padding-top: 11px;
     }
@@ -249,6 +253,10 @@
     border: none;
     border-bottom: 1px solid var(--marker-color);
     background-color: var(--input-color);
+
+    &:invalid {
+      border: 3px solid red;
+    }
   
     @media screen and (max-width: 767px){
       margin-top: 22px;
