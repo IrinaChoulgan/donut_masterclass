@@ -25,6 +25,16 @@
 
 .program-left-block__title {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  @media screen and (min-width: 768px) {
+    justify-content: flex-start;
+  }
+  @media screen and (min-width: 1280px) {
+    justify-content: flex-start;
+  }
 }
 
 .program-left-block__text {

@@ -1,5 +1,5 @@
 .footer__container {
-  padding-top: 27px;
+  // padding-top: 27px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -22,19 +22,20 @@
 
 .contact__title {
   margin-bottom: 25px;
+  font-weight: normal;
 }
 
 .contact__text {
   margin-bottom: 27px;
   &:invalid {
-    border: 5px solid red;
+    border: 3px solid red;
   }
 }
 
 .contact__mail {
   margin-bottom: 15px;
   &:invalid {
-    border: 5px solid red;
+    border: 3px solid red;
   }
 }
 
