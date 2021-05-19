@@ -266,6 +266,9 @@
     @media screen and (min-width: 768px){
         margin-top: 12px;
         width: 234px;
+        &:not(:first-child){
+          margin-top: 14px;
+        }
     }
   
     &::placeholder{
