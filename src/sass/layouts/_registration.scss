@@ -1,5 +1,4 @@
-
-.primary{
+.primary {
   display: inline-flex;
 }
 
@@ -250,7 +249,7 @@ label {
   background-color: var(--input-color);
 
   &:invalid {
-  border: 3px solid red;
+   border: 3px solid red;
   }
   
   @media screen and (max-width: 767px){
@@ -276,5 +275,6 @@ label {
   }
   @media screen and (min-width: 1280px){
   margin-top: 14px;
+
   }
 }
