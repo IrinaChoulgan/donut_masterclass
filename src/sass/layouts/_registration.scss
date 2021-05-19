@@ -38,6 +38,7 @@
     font-size: 24px;
     line-height: 2.71; 
     margin-bottom: 11px; 
+    padding-top: 15px;
     }
   
     @media screen and (min-width: 768px) and (max-width: 1279px){
@@ -76,16 +77,13 @@
   
   .form-part__image--confetti{
     @media screen and (min-width: 1280px) {
-      width: 50%;
       top: 29px;
-      right: 0;
-     
+      right: -39px;
     }
     @media screen and (min-width: 768px)and (max-width: 1279px){
-    width: 50%;
     top: 0;
-    right: 0;
-    transform: translate(-28%, 25%);
+    right: -209px;
+  
     }        
   }
   .form-part__image,
@@ -156,24 +154,30 @@
   
   .inform-list__item{
     @media screen and (max-width: 767px) {
-    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    
+
+      &:last-child{
+      padding-top: 25px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--placeholder-color);
     }
-  
+  }
     @media screen and (min-width: 768px) and (max-width: 1279px){
         &:last-child{
             padding-top: 35px;
+
         }
     }
-  
     @media screen and (min-width: 1280px){
     &:last-child{
         padding-top: 30px;
     }
   }
-  }
-  
-  
-  .inform-list__text{
+}
+.inform-list__text{
     font-weight: 500;  
     @media screen  and (max-width: 1279px){
     font-size: 18px;
@@ -227,10 +231,17 @@
   }
   
   .checkin-form__text{
+    &:invalid {
+      border: 3px solid red;
+    }
+
+    @media screen and (max-width: 767px) {
+      padding-top: 11px;
+    }
     font-size: 16px;
     line-height: 1.22;
     @media screen and (min-width: 768px) and (max-width: 1279px) {
-        padding-bottom: 4px;
+        margin-bottom: 4px;
     }
     
     @media screen  and (min-width: 1280px){
@@ -239,17 +250,21 @@
   }
   
   .checkin-form__input{
-    margin: 0;
     border: none;
     border-bottom: 1px solid var(--marker-color);
     background-color: var(--input-color);
+
+    &:invalid {
+      border: 3px solid red;
+    }
   
     @media screen and (max-width: 767px){
-        max-width: 260px;
+      margin-top: 22px;
+      max-width: 260px;
     }
   
     @media screen and (min-width: 768px){
-        padding-top: 13px;
+        margin-top: 12px;
         width: 234px;
     }
   
