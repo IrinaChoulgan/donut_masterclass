@@ -38,6 +38,7 @@
     font-size: 24px;
     line-height: 2.71; 
     margin-bottom: 11px; 
+    padding-top: 15px;
     }
   
     @media screen and (min-width: 768px) and (max-width: 1279px){
@@ -77,8 +78,7 @@
   .form-part__image--confetti{
     @media screen and (min-width: 1280px) {
       top: 29px;
-      right: 109px;
-     
+      right: -39px;
     }
     @media screen and (min-width: 768px)and (max-width: 1279px){
     top: 0;
@@ -154,8 +154,10 @@
   
   .inform-list__item{
     @media screen and (max-width: 767px) {
-    padding-bottom: 25px;
+      &:last-child{
+      padding-top: 25px;
     }
+  }
   
     @media screen and (min-width: 768px) and (max-width: 1279px){
         &:last-child{
@@ -168,7 +170,8 @@
         padding-top: 30px;
     }
   }
-  }
+}
+  
   
   
   .inform-list__text{
