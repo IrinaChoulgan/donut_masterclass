@@ -154,6 +154,11 @@
   
   .inform-list__item{
     @media screen and (max-width: 767px) {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    
+
       &:last-child{
       padding-top: 25px;
       padding-bottom: 20px;
@@ -226,6 +231,9 @@
   }
   
   .checkin-form__text{
+    @media screen and (max-width: 767px) {
+      padding-top: 11px;
+    }
     font-size: 16px;
     line-height: 1.22;
     @media screen and (min-width: 768px) and (max-width: 1279px) {
