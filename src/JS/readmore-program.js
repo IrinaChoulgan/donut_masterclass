@@ -1,7 +1,7 @@
 window.addEventListener('load', function () {
-  const switchableContent = document.querySelector('.switchable-content');
-  const btnToggleContent = document.querySelector('.js-btn-toggle-content');
-  
+  const switchableContent = document.querySelector('.switchable');
+  const btnToggleContent = document.querySelector('.js-btn');
+
   function toggleContent() {
     switchableContent.classList.toggle('is-open');
 
