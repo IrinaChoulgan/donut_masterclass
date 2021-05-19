@@ -58,7 +58,7 @@ label {
 
 .form-part__image{
   top:34px;
-
+  
   @media screen and (min-width: 768px) and (max-width: 1279px) {
   left: -5px;
   }
@@ -245,6 +245,7 @@ label {
 .checkin-form__input{
   padding: 0;
   border: none;
+  height: 22px;
   border-bottom: 1px solid var(--marker-color);
   background-color: var(--input-color);
 
@@ -266,9 +267,8 @@ label {
     font-size: 16px;
     line-height: 1.25;
     color: var(--placeholder-color);
-    }
   }
-
+}
 
 [type="text"]{
   @media screen and (min-width: 768px)and (max-width: 1279px){
