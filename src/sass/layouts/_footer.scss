@@ -28,14 +28,14 @@
 .contact__text {
   margin-bottom: 27px;
   &:invalid {
-    border: 5px solid red;
+    border: 3px solid red;
   }
 }
 
 .contact__mail {
   margin-bottom: 15px;
   &:invalid {
-    border: 5px solid red;
+    border: 3px solid red;
   }
 }
 
