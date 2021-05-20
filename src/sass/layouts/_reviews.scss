@@ -21,7 +21,9 @@
   text-align: center;
 }
 .reviews {
-  
+  @media screen and (max-width: 319px) {
+    padding-top: 45px;
+  }
   @media screen and (min-width: 320px) {
     padding-top: 45px;
   
@@ -54,6 +56,11 @@
 .grid__item {
   flex-basis: calc((100% - 38px * var(--grid__item)) / var(--grid__item));
   margin-top: 20px;
+  @media screen and (max-width: 319px) {
+    margin-left: 85px;
+    max-width: 110px;
+  
+  }
   @media screen and (min-width: 320px) {
     margin-left: 85px;
     max-width: 110px;
