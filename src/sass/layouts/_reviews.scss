@@ -21,7 +21,9 @@
   text-align: center;
 }
 .reviews {
-  
+  @media screen and (max-width: 319px) {
+    padding-top: 45px;
+  }
   @media screen and (min-width: 320px) {
     padding-top: 45px;
   
